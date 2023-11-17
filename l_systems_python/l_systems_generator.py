@@ -87,7 +87,7 @@ class LSystemGenerator:
             print(axiom)
         except StopIteration:
             print("Done")
-
+            print(f"New Iterations: {self.iterations}")
 
     def increase_angle(self):
         self.angle += 10
@@ -162,7 +162,7 @@ class LSystemGenerator:
         try:
             new_iterations = turtle.numinput("Iteration Count", "Enter number of iterations (this will reset the drawing): ", default=self.iterations)
             self.iterations = int(new_iterations)
-            print(f"New Iteration count: {self.iterations}")
+            print(f"New Iterations: {self.iterations}")
             turtle.listen() 
             self.clear_reset()
         except:
@@ -197,4 +197,7 @@ class LSystemGenerator:
 if __name__ == "__main__":
     l_system_generator = LSystemGenerator(iterations)
     l_system_generator.main()
+
+
+
 
