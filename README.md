@@ -1,5 +1,6 @@
 # L_Systems
 
+Make sure the import is specifying the config file you want
 
         Instructions:
         - Click to generate the next iteration.
