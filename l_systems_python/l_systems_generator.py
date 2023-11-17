@@ -1,7 +1,7 @@
 import turtle
 from tkinter import messagebox
 
-##from config_a import *
+from config_a import *
 ##from config_b import *
 ##from config_c import *
 ##from config_d import *
